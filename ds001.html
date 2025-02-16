@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+
+     digite seu pais: <input type="text" name="ntxt" id="ntxt">
+
+    <input type="button" value="Confirmar" onclick="calcule()">
+
+    <div id="ba">
+
+    </div>
+    
+    <script>
+        function calcule(){
+            var tx = window.document.querySelector('input#ntxt')
+            var ba = window.document.querySelector ('div#ba')
+            var re = Text(tx.value)
+            ba.innerHTML = `<p> ola </p>`
+            
+        }
+    
+    </script>
+</body>
+</html>
